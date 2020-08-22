@@ -1,0 +1,62 @@
+<ion-header>
+  <ion-toolbar>
+   <ion-buttons slot="start">
+      <ion-back-button defaultHref="tabs/video"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Countries of the world</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+
+<ion-content>
+
+
+
+<h1>
+There are more than 200 Countries in the world. 
+</h1>
+<h2>
+I have visited 55 Countries so far.
+</h2>
+
+
+<div class="container">
+
+<div style="display: flex; justify-content: center;">  
+	<div class="example-container">
+		<h2>Countries</h2>
+
+		<div cdkDropList #todoList="cdkDropList" [cdkDropListData]="todo" [cdkDropListConnectedTo]="[doneList]"
+			class="example-list" (cdkDropListDropped)="drop($event)">
+			<div class="example-box" *ngFor="let item of todo" cdkDrag >
+				<div class="flag-box">
+					<img [src]="item.url" alt="flag image">
+					<p>{{ item.name }}</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="example-container">
+		<h2>I have been to</h2>
+
+		<div cdkDropList #doneList="cdkDropList" [cdkDropListData]="done" [cdkDropListConnectedTo]="[todoList]"
+			class="example-list" (cdkDropListDropped)="drop($event)">
+			<div class="example-box" *ngFor="let item of done" cdkDrag>
+				<div class="flag-box">
+					<img [src]="item.url" alt="flag image">
+					<p>{{ item.name }}</p>
+				</div>
+			</div>
+
+
+   </div>
+   </div>
+
+ 
+	
+
+
+
+ 

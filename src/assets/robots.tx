@@ -1,0 +1,8 @@
+User-agent: Googlebot
+Disallow: /nogooglebot/
+
+# start of file
+disallow: /downloads/
+
+user-agent: magicsearchbot
+allow: /

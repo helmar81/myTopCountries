@@ -1,0 +1,19 @@
+
+{
+    "name": "My Top Countries",
+    "short_name": "top10",
+    "theme_color": "#1976d2",
+    "background_color": "#ffca22",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "/",
+    "icons": [
+      {
+        "src": "assets/HelmarLogo.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      }
+      
+    ]
+  }
+    

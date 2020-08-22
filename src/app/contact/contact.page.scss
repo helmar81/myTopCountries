@@ -1,0 +1,58 @@
+
+
+.avatar {
+  display: flex; justify-content: center;
+  width: 178px;
+  height:158px;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 10px;
+}
+
+
+.ion-label  {
+  font-size: 0.5rem;
+}
+
+
+
+ p {
+   color: gray;
+ }
+
+
+
+ ion-item {
+  padding: 3px;
+  margin: auto;
+
+ 
+ }
+
+
+ ion-button {
+  display: flex; justify-content: center; 
+  padding: 1px;
+  margin: 5px;
+}
+
+ion-item {
+padding: 3px;
+margin: 5px;
+}
+
+h3 {
+  padding: 3px;
+  margin: 5px;
+  }
+
+ion-label {
+color: white;
+font-size: 0.7rem;
+position: rdelative;
+}
+
+.div {
+  padding: 10px;
+  margin: auto;
+}

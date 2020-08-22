@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "staging": "mytopcountries",
+    "default": "mytopcountries",
+    "update": "mytopcountries"
+  }
+}

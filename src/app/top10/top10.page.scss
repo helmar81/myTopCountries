@@ -1,0 +1,59 @@
+
+.flag {
+    width: 65px;
+    height: 59px;
+    position: relative;
+    padding: 1px;
+    margin: 20px;
+}
+
+
+img {
+    width: 95%;
+    height: 80%;
+    border-radius: 22%;
+    margin: 0px;
+    padding: 3px;
+    align-content: center;
+    
+
+
+}
+
+ion-card-title {
+    color: blue;
+    font-family: sans-serif;
+    align-content: center;
+    margin: 2px;
+    padding: 5px;
+    font-size: 1rem;
+    
+}
+
+
+ion-card-subtitle {
+position: relative;
+margin: 2px;
+padding: 5px;
+}
+
+
+.avatar {
+  
+   width: 100px;
+   height: 80px;
+    border-radius: 60%;
+    position: relative;
+    margin: 10px;
+    padding: 5px;
+    display: flex; justify-content: center;
+  }
+
+
+  iframe  {
+    border-radius: 22%;
+  }
+
+  ion-footer {
+      padding: 10px;
+  }

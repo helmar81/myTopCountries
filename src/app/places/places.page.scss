@@ -1,0 +1,191 @@
+
+
+.welcome-card img {
+  max-height: 35vh;
+  overflow: hidden;
+}
+
+img {
+  width: 85%;
+  height: 50%;
+  border-radius: 2%;
+  margin: 10px;
+  padding: 3px;
+  align-content: center;
+  float: center;
+
+
+}
+
+.map{
+  height: 80%;
+  width: 90%;
+  border-radius: 5%;
+  padding: 10px;
+  margin: 15px;
+  display: flex; justify-content: center;
+}
+
+
+.card-title {
+  color: blueviolet;
+  font-size: bold;
+}
+
+
+li {
+    font-size: bold;
+    color: whitesmoke;
+    font-family: sans-serif;
+}
+
+
+ion-card {
+font-style: sans-serif;
+color: silver;
+font-size: 0.8rem;
+margin:10px;
+padding:10px;
+background-color: lightblue;
+
+}
+
+ion-card-content {
+  font-size: 2.8rem;
+  color:gray;
+}
+
+.ion-card-title {
+  font-size: 2rem;
+  color:blue;
+}
+
+
+
+
+h3 {
+  color: lightslategray;
+  font-optical-sizing: bold;
+}
+
+h4 {
+  color: yellow;
+  font-optical-sizing: bold;
+}
+
+h2 {
+  color: gray;
+  font-size-adjust: bold;
+  font-size: 0.7rem;
+}
+
+h1 {
+  color: gray;
+  font-size: 0.8rem;
+
+}
+
+
+
+ion-card-title {
+color:silver;
+font-size: 1.0rem;
+font-family:sans-serif;
+padding: 0px;
+margin: 2px;
+
+}
+
+ion-card-subtitle {
+  color: lightslategrey;
+  font-size: 0.8rem;
+  justify-content: center;
+  padding: 0px;
+  margin: 2px;
+}
+
+.avatar {
+  float: center;
+  width: 60px;
+  height:50px;
+  border-radius: 60%;
+  align-content: left;
+  margin: 10px;
+  position: absolute;
+}
+
+.avatar3 {
+  float: center;
+  width: 660px;
+  height:550px;
+  border-radius: 30%;
+  align-content: center;
+  padding: 29px;
+  margin: 10px;
+  border: 3px solid blue;
+  position: relative;
+}
+
+.avatar1 {
+ 
+  width: 50px;
+  height:40px;
+  border-radius: 60%;
+  align-content: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+.square {
+  vertical-align: middle;
+  width: 90%;
+
+  border-radius: 10%;
+  float: center;
+  margin: 10px;
+}
+
+.rectangle {
+  align-self:  center;
+  width: 98%;
+  height:125%;
+  border-radius: 25%;
+  align-content: center;
+  margin: auto;
+  padding: 15px;
+ 
+}
+
+.iframe {
+  vertical-align: middle;
+  align-self:  center;
+  width: 100px;
+  height:50px;
+  border-radius: 5%;
+  float: left;
+  margin: 5px;
+  padding: 15px;
+ 
+}
+
+
+
+
+p {
+  font-size: 0.99rem;
+  color: gray;
+  justify-content: center;
+  display: flex; 
+  padding: 3px;
+  margin: 2px;
+  position: relative;
+  font-family:sans-serif;
+}
+
+.card-subtitle  {
+  color: white;
+}
+
+.ion-card-title  {
+  color: whitesmoke;
+}

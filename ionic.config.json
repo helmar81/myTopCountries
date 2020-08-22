@@ -1,0 +1,7 @@
+{
+  "name": "top10Countries",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

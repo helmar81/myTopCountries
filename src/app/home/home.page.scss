@@ -1,0 +1,157 @@
+
+
+img {
+    width: 85%;
+    height: 70%;
+    border-radius: 22%;
+    margin: 10px;
+    padding: 3px;
+    align-content: center;
+    float: center;
+
+
+}
+
+.ion-slides {
+   margin: 5px;
+}
+
+h1 {
+    color: blue;
+    font-size: 1.1rem;
+    position: absolute;
+    padding: 10px;
+   
+}
+
+
+
+
+ion-footer {
+    color: medium;
+    padding: 10px;
+}
+
+ion-toolbar {
+    color: medium;
+    border: 2px;
+}
+
+ion-title {
+    color: whitesmoke;
+    float: center;
+   font-size: 0.7rem;
+    position: relative;
+}
+
+
+.logo {
+    height: 17px;
+    width: 18px;
+}
+
+.square {
+    padding: 0px;
+    margin: autopx;
+    width: 60px;
+    height:40px;
+}
+
+h6 {
+    color: lightblue;
+    display: flex; justify-content: center;
+}
+
+ h5 {
+    color: lightblue;
+    text-align: left;
+    padding: 5px;
+    margin: 0px;
+    position: relative;
+    font-size: 0.95rem;
+    display: flex; justify-content: center;
+  }
+
+  h3 {
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    
+    padding: 5px;
+    margin: 0px;
+    position: relative;
+    font-size: 0.7rem;
+    display: flex; justify-content: center;
+  }
+
+  h2  {
+    display: flex; justify-content: center;
+    color: blue;
+    font-size: 0.82rem;
+    padding: 5px;
+    margin: 5px;
+  }
+
+  h4 {
+    text-align: left;
+    padding: 10px;
+    margin: 30px;
+    position: relative;
+  }
+
+  ion-text {
+      color: silver;
+      font-family: sans-serif;
+      font-size: bold  10px;
+      text-align: center;
+  }
+
+  p {
+    color: medium;
+    font-family: sans-serif;
+    font-size: 1rem;
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+}
+
+a {
+    color: whitesmoke;
+    font-size: 1.4rem;
+}
+
+.uk {
+    color:lightskyblue;
+    font-size: bold;
+    font-size: 1.1rem;
+}
+
+.rectangle {
+    align-self:  center;
+    width: 95%;
+    height:55%;
+    border-radius: 5%;
+    align-content: center;
+    margin: 10px;
+    padding: 0px;
+   
+  }
+
+  .buttons-container {
+    margin-top: 30px;
+  }
+
+  ion-footer  {
+    padding: 0px;
+    margin: auto;
+    height: 195px;
+   
+}
+
+ion-item {
+    padding: 10px;
+    color: gray;
+    margin: 10px;
+    text-align: justify;
+    font-size: 0.77rem;
+}
